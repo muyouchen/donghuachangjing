@@ -1,0 +1,18 @@
+.scroller_vertical,
+.scroller_horizontal {
+	-webkit-border-radius: 2.5px;	
+	border-radius: 2.5px;
+	background-color: rgba(0,0,0,.35);
+	/*-webkit-transition: opacity .5s;
+	        transition: opacity .5s;*/
+	position: absolute;
+	/*opacity: 0;*/
+}
+.scroller_vertical {
+	width: 5px;
+	right: 2px;
+}
+.scroller_horizontal {
+	height: 5px;
+	bottom: 0;
+}
